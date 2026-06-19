@@ -5,7 +5,7 @@ A full-featured Android web browser built entirely with Jetpack Compose, powered
 ## Features
 
 - **Tabbed browsing** with live preview snapshots, private tabs, and a liquid-animated bottom tab bar
-- **Frosted glass UI** — real-time GPU-accelerated blur, vibrancy, and tinting via the Backdrop library
+- **Liquid Glass UI** — real-time GPU-accelerated blur, vibrancy, and tinting via the Backdrop library (first Android browser to feature Liquid Glass)
 - **Bookmarks & history** persisted in SharedPreferences
 - **Download manager** with live progress tracking
 - **Developer tools** — JavaScript console and "Edit Page" (makes page content editable)
@@ -18,7 +18,7 @@ A full-featured Android web browser built entirely with Jetpack Compose, powered
 |---|---|
 | Engine | [GeckoView 150](https://maven.mozilla.org/maven2/org/mozilla/geckoview/) |
 | UI | Jetpack Compose + Material 3 |
-| Glass effects | [Backdrop](https://github.com/kyant0/backdrop) (vibrancy, blur, lens) |
+| Liquid Glass | [Backdrop](https://github.com/kyant0/backdrop) (vibrancy, blur, lens) |
 | Shapes | [Kyant Shapes](https://github.com/kyant0/shapes) |
 | Architecture | Single-activity, Compose-first |
 
@@ -52,4 +52,4 @@ On every push to `main`, GitHub Actions builds all 4 variants and uploads them a
 
 ## License
 
-MIT
+GPLv3
